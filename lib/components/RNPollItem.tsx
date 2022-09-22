@@ -21,8 +21,10 @@ import {
   convertPercentageString,
   calculateProgressBarAnimation,
 } from "../utils/RNPoll.utils";
+import { Check } from 'phosphor-react-native';
 
-const defaultCheckMarkImage = require("../local-assets/checkmark.png");
+//const defaultCheckMarkImage = require("../local-assets/checkmark.png");
+const defaultCheckMarkImage = <Check size="12" color="white" weight="duotone" />
 
 type CustomStyleProp = StyleProp<ViewStyle> | Array<StyleProp<ViewStyle>>;
 
