@@ -57,5 +57,8 @@
       "npx prettier --write",
       "eslint src/*.js --fix-dry-run"
     ]
+  },
+  "dependencies": {
+    "phosphor-react-native": "^1.1.2"
   }
 }
