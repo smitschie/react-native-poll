@@ -81,7 +81,7 @@ const RNPollItem: React.FC<IRNPollItemProps> = ({
   }
 
   return (
-    <RNBounceable bounceEffect={0.97} onPress={onPress} disabled={disabled}>
+    <RNBounceable  onPress={onPress} disabled={disabled}>
       <View style={_container(borderColor, _borderWidth)}>
         <Animated.View
           style={[

@@ -28,7 +28,7 @@ export const _animatedViewStyle = (
   animatedWidth: Animated.AnimatedInterpolation,
 ): ViewStyle => ({
   backgroundColor,
-  width: animatedWidth,
+  //width: animatedWidth,
 });
 
 interface Style {
